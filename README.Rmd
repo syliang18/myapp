@@ -1,0 +1,15 @@
+---
+title: "README"
+author: "Suh-Yuen Liang"
+date: "2023-12-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## README
+
+This is an exercise for using Github in Rstudio for version control of R scripts.
+
