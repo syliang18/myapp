@@ -5,3 +5,6 @@
 # Revision: 2023/12/18
 ##########################################
 library(ggplot2)
+
+# show sessioninfo
+sessionInfo()
