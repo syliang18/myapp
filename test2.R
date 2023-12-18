@@ -29,7 +29,3 @@ ggplot(CO2, aes(x=interaction(Type,Plant), y=conc, color=Treatment))+
   theme_classic() +
   theme(axis.text.x = element_text(angle=90, hjust=1))
 
-
-CO2%>%
-  group_by(Type, Plant, Treatment) %>%
-  summarise(mean=mean(conc))
