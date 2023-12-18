@@ -10,3 +10,12 @@ getwd()
 
 # show session.info
 sessionInfo()
+
+# show sys date
+Sys.Date()
+
+# show .libPaths
+.libPaths()
+
+# show working directory
+getwd()
