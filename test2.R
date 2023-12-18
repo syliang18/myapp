@@ -8,3 +8,6 @@ library(ggplot2)
 
 # show sessioninfo
 sessionInfo()
+
+# show dataset 
+head(datasets::pressure)
