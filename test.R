@@ -19,3 +19,6 @@ Sys.Date()
 
 # show working directory
 getwd()
+
+# show dataset CO2
+head(datasets::CO2)
