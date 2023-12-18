@@ -14,4 +14,9 @@ head(datasets::pressure)
 
 # show line plot
 ggplot(pressure, aes(x=temperature, y=pressure))+
-  geom_line()
+  geom_line(colour='blue',linetype=2, size=1)+
+  geom_point(colour="black", size=2, show.legend =T)+
+  theme_classic()+
+  ggtitle('This is a line plot')+
+  theme(title=element_text(size=20, face="bold", hjust=0.5),
+  axis.title = element_text(size=10,  hjust=0.5))
