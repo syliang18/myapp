@@ -25,7 +25,8 @@ ggplot(pressure, aes(x=temperature, y=pressure))+
 head(datasets::CO2)
 
 ggplot(CO2, aes(x=interaction(Type,Plant), y=conc, color=Treatment))+
-  geom_boxplot() +
+  geom_boxplot(fill="lightgreen") +
   theme_classic() +
+  labs(x="plant")+
   theme(axis.text.x = element_text(angle=90, hjust=1))
 
